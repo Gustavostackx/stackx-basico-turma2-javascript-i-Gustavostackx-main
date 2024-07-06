@@ -1,0 +1,101 @@
+<meta charset="utf-8" />
+<script> 
+function soma(a, b) {
+  return a + b;
+}
+
+let somadosnumeros = soma(23, 34);
+console.log(somadosnumeros);
+
+let x = 5;
+let y = 25;
+
+let resultadoSoma = soma(x, y);
+console.log(resultadoSoma);
+
+function multiplicacao(a, b) {
+  return a * b;
+}
+
+let resultadodamultiplicacao = multiplicacao(x, y);
+console.log(resultadodamultiplicacao);
+
+let multiplicacaodosnumeros = multiplicacao (5,5);
+console.log(multiplicacaodosnumeros)
+
+// Função de subtração
+function subtracao(a, b) {
+  return a - b;
+}
+
+let resultadodasubtracao = subtracao(56, 6);
+console.log(resultadodasubtracao);
+
+// Função de divisão
+function divisao(a, b) {
+  return a / b;
+}
+
+let resultadodadivisao = divisao(x, y);
+console.log(resultadodadivisao);
+
+
+function encontrarMaiorNumero(a, b) {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+
+
+let num1 = 15;
+let num2 = 30;
+let maior = encontrarMaiorNumero(num1, num2);
+console.log(`O maior número entre ${num1} e ${num2} é: ${maior}`);
+
+num1 = 42;
+num2 = 17;
+maior = encontrarMaiorNumero(num1, num2);
+console.log(`O maior número entre ${num1} e ${num2} é: ${maior}`);
+
+
+function concatenarStrings(str1, str2) {
+  return `${str1} ${str2}`;
+}
+
+
+let primeiraString = "Olá";
+let segundaString = "mundo!";
+let resultado = concatenarStrings(primeiraString, segundaString);
+console.log(resultado);
+
+function verificarSinal(numero) {
+  if (numero > 0) {
+    return "O número é positivo.";
+  } else if (numero < 0) {
+    return "O número é negativo.";
+  } else {
+    return "O número é zero.";
+  }
+}
+
+
+console.log(verificarSinal(10));
+console.log(verificarSinal(-5));   
+console.log(verificarSinal(0));
+
+function validarNumeroPositivo(numero) {
+  return numero > 0;
+}
+
+
+console.log(validarNumeroPositivo(5)); 
+console.log(validarNumeroPositivo(-2));  
+console.log(validarNumeroPositivo(0));
+
+
+
+
+
+</script>
